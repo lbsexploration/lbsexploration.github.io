@@ -24,8 +24,8 @@ They follow videos of the agents playing the games, driven only by their curiosi
     <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="50%" controls preload></video>
 </div>
 ### Montezuma Revenge
-<div>
-     style='text-align: center'<video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="50%" controls preload></video>
+<div style='text-align: center'>
+     <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="50%" controls preload></video>
 </div>
 ### Pong
 <div style='text-align: center'>
