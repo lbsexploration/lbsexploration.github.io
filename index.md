@@ -11,7 +11,10 @@ Training with Reinforcement Learning requires a reward function that is used to 
 
 The curves show the game score achieved during an episode of training. Agents learn using only the intrinsic motivation signal.
 
-<img src="./resources/arcade_results.png" alt="Arcade Results" width="70%">
+
+<div style='text-align: center'>
+    <img src="./resources/arcade_results.png" alt="Arcade Results" width="70%">
+</div>
 
 To incentivize comparison against our baseline, we make public the data used in the plots, which can be easily integrated with the original [Large-Scale Study of Curiosity-Driven Learning](https://github.com/openai/large-scale-curiosity) open-source implementation.
 
