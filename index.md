@@ -5,7 +5,7 @@ Training with Reinforcement Learning requires a reward function that is used to 
 
 ### Arcade Games Experiments
 
-The curves show the game score achieved during an episode of training by agents learning only using the intrinsic motivation signal.
+The curves show the game score achieved during an episode of training. Agents learn using only the intrinsic motivation signal.
 
 ![Arcade Results](./resources/arcade_results.png)
 
