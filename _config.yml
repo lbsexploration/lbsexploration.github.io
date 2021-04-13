@@ -1,2 +1,6 @@
 theme: jekyll-theme-cayman
-title: Self-Supervised Exploration via Latent Bayesian Surprise
+title: 'Self-Supervised Exploration<br>via Latent Bayesian Surprise' 
+description:
+- Pietro Mazzaglia, Ozan Catal, Tim Verbelen, Bart Dhoedt
+- Ghent University
+- 'Self-supervised Reinforcement Learning' workshop(ICLR 2021)
