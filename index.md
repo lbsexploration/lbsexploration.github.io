@@ -15,38 +15,40 @@ To incentivize comparison against our baseline, we make public the data used in 
 
 They follow videos of the agents playing the games, driven only by their curiosity.
 
-### BeamRider 
-<div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/BeamRider-6140.mp4" width="50%" controls preload></video>
-</div>
-### Breakout 
-<div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="50%" controls preload></video>
-</div>
-### Montezuma Revenge
-<div style='text-align: center'>
-     <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="50%" controls preload></video>
-</div>
-### Pong
-<div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Pong-2-4.mp4" width="50%" controls preload></video>
+<div class="row">
+    ### BeamRider 
+    <div class="column" style='text-align: center'>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/BeamRider-6140.mp4" width="15%" controls preload></video>
+    </div>
+    ### Breakout 
+    <div class="column" style='text-align: center'>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="15%" controls preload></video>
+    </div>
+    ### Montezuma Revenge
+    <div class="column" style='text-align: center'>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="15%" controls preload></video>
+    </div>
+    ### Pong
+    <div class="column" style='text-align: center'>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Pong-2-4.mp4" width="15%" controls preload></video>
+    </div>
 </div>
 ### Qbert
 <div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Qbert-15600.mp4" width="50%" controls preload></video>
+    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Qbert-15600.mp4" width="15%" controls preload></video>
 </div>
 ### Seaquest
 <div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Seaquest-1060.mp4" width="50%" controls preload></video>
+    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Seaquest-1060.mp4" width="15%" controls preload></video>
 </div>
 ### Space Invaders
 <div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/SpaceInvaders-1370.mp4" width="50%" controls preload></video>
+    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/SpaceInvaders-1370.mp4" width="15%" controls preload></video>
 </div>
 ### Super Mario Bros.
 <div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-pipe-world-1.mp4" width="50%" controls preload></video>
+    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-pipe-world-1.mp4" width="15%" controls preload></video>
 </div>
 <div style='text-align: center'>
-    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-all-world-1.mp4" width="50%" controls preload></video>
+    <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-all-world-1.mp4" width="15%" controls preload></video>
 </div>

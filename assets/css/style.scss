@@ -1,7 +1,22 @@
 ---
 ---
 
+// Text
+$section-headings-color: #1b7fbba1;
+
 @import "{{ site.theme }}";
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .page-header {
     color: $header-heading-color;
