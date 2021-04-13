@@ -16,21 +16,21 @@ To incentivize comparison against our baseline, we make public the data used in 
 They follow videos of the agents playing the games, driven only by their curiosity.
 
 <div class="row">
-    ### BeamRider 
+    <h4> BeamRider </h4> 
     <div class="column" style='text-align: center'>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/BeamRider-6140.mp4" width="15%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/BeamRider-6140.mp4" width="100%" controls preload></video>
     </div>
-    ### Breakout 
+    <h4> Breakout </h4> 
     <div class="column" style='text-align: center'>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="15%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="100%" controls preload></video>
     </div>
-    ### Montezuma Revenge
+    <h4> Montezuma </h4> Revenge
     <div class="column" style='text-align: center'>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="15%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="100%" controls preload></video>
     </div>
-    ### Pong
+    <h4> Pong </h4>
     <div class="column" style='text-align: center'>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Pong-2-4.mp4" width="15%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Pong-2-4.mp4" width="100%" controls preload></video>
     </div>
 </div>
 ### Qbert
