@@ -18,45 +18,47 @@ They follow videos of the agents playing the games, driven only by their curiosi
 <div class="row">
     <div class="column" style='text-align: center'>
     <h4> BeamRider </h4> 
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/BeamRider-6140.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/BeamRider-6140.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
     <h4> Breakout </h4> 
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Breakout-425.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
-    <h4> Montezuma<br> Revenge</h4> 
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="100%" controls preload></video>
+    <h4> Montezuma Revenge</h4> 
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
     <h4> Pong </h4>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Pong-2-4.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Pong-2-4.mp4" width="90%" controls preload></video>
     </div>
 </div>
 <div class="row">
     <div class="column" style='text-align: center'>
         <h4> Qbert </h4>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Qbert-15600.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Qbert-15600.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
         <h4> Riverraid</h4>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Riverraid-6890.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Riverraid-6890.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
         <h4> Seaquest</h4>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Seaquest-1060.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/Seaquest-1060.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
         <h4> Space Invaders</h4>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/SpaceInvaders-1370.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/SpaceInvaders-1370.mp4" width="90%" controls preload></video>
     </div>
 </div>
 <h4> Super Mario Bros.</h4>
 <div class="row">
+    <div class="column" style='text-align: center'></div>
     <div class="column" style='text-align: center'>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-pipe-world-1.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-pipe-world-1.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-all-world-1.mp4" width="100%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-all-world-1.mp4" width="90%" controls preload></video>
     </div>
+    <div class="column" style='text-align: center'></div>
 </div>
