@@ -1,8 +1,10 @@
 theme: jekyll-theme-cayman
-title: 'Self-Supervised Exploration<br>via Latent Bayesian Surprise'
+title: 'Curiosity-Driven Exploration<br>via Latent Bayesian Surprise'
 description:
 - Pietro Mazzaglia, Ozan Catal, Tim Verbelen, Bart Dhoedt<br>
-- Ghent University<br>
-- Self-supervision for Reinforcement Learning workshop (ICLR 2021)<br>
+- IDLab, Ghent University<br>
+- Accepted to AAAI-22<br>
+- Presented at Self-supervision for Reinforcement Learning workshop (ICLR 2021)<br>
 buttons:
-  Full Article: 'https://arxiv.org/pdf/2104.07495.pdf'
+  Conference Paper Coming Soon: ''
+  Workshop Paper: 'https://arxiv.org/pdf/2104.07495.pdf'

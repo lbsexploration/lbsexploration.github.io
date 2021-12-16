@@ -1,11 +1,51 @@
 ---
-title: 'Self-Supervised Exploration<br>via Latent Bayesian Surprise'
+title: 'Curiosity-Driven Exploration<br>via Latent Bayesian Surprise'
 ---
 
 ## Abstract
 
-Training with Reinforcement Learning requires a reward function that is used to guide the agent towards achieving its objective. However, designing smooth and well-behaved rewards is in general not trivial and requires significant human engineering efforts. Generating rewards in self-supervised way, by inspiring the agent with an intrinsic desire to learn and explore the environment,  might induce more general behaviours. In this work, we propose a curiosity-based bonus as intrinsic reward for Reinforcement Learning, computed as the Bayesian surprise with respect to a latent state variable, learnt by reconstructing fixed random features. We extensively evaluate our model by measuring the agent's performance in terms of environment exploration, for continuous tasks, and looking at the game scores achieved, for video games. Our model is computationally cheap and empirically shows state-of-the-art performance on several problems. Furthermore, experimenting on an environment with stochastic actions, our approach emerged to be the most resilient to simple stochasticity.
+The human intrinsic desire to pursue knowledge, also known as curiosity, is considered essential in the process of skill acquisition. With the aid of artificial curiosity, we could equip current techniques for control, such as Reinforcement Learning, with more natural exploration capabilities. A promising approach in this respect has consisted of using Bayesian surprise on model parameters, i.e. a metric for the difference between prior and posterior beliefs, to favour exploration. In this contribution, we propose to apply Bayesian surprise in a latent space representing the agent’s current understanding of the dynamics of the system, drastically reducing the computational costs. We extensively evaluate our method by measuring the agent's performance in terms of environment exploration, for continuous tasks, and looking at the game scores achieved, for video games. Our model is computationally cheap and compares positively with current state-of-the-art methods on several problems. We also investigate the effects caused by stochasticity in the environment, which is often a failure case for curiosity-driven agents. In this regime, the results suggest that our approach is resilient to stochastic transitions.
 
+### Comparison with RIDE and NGU
+
+In the plot, we compare against RIDE ([Raileanu et al. 2020](https://arxiv.org/abs/2002.12292)) and Never Give Up (NGU; [Badia et al. 2020](https://arxiv.org/abs/2002.06038)) in the same continuous control and stochastic experiments presented in the paper.
+
+<div style='text-align: center'>
+    <img src="./resources/reply_continuous_plot.png" alt="Comparison with RIDE and NGU" width="100%">
+</div> 
+
+For the sake of understanding the impact of episodic novelty, we also experimented with a RIDE baseline without the episodic term (i.e. w/o count). The results show that episodic novelty improves performance, especially in stochastic settings. 
+
+Overall, the Latent Bayesian Surprise approach performs best, being more resilient to stochasticity (i.e. Frozen/EvolvingOriginalState) and exploring more efficiently in large state/action spaces (i.e. HalfCheetah).
+
+### Visual Control Zero-shot Benchmark
+
+<div>
+    <img src="./resources/dmc_gifs.gif" alt="this slowpoke moves"  width="100%" />
+</div>
+
+This experiment evaluates the performance on a zero-shot setting (see [Sekar et al. 2020](https://arxiv.org/abs/2005.05960) for details). 
+
+The model and the agent are trained without rewards, collecting data through exploration. Some of the curiosity-driven behaviours learned in this phase with Latent Bayesian Surprise are showed in the GIF, under the <b>Exploration</b> column.
+
+Along the exploration process, snapshots of the agent's model are used to train a task policy on the final task and plot its zero-shot performance. These behaviours are shown under the <b>Task</b> column.
+
+Performance curves in terms of environment returns are showed, comparing against:
+- *Dreamer* ([Hafner et al. 2020](https://arxiv.org/abs/1912.01603)): a supervised approach that collects data and trains the model and the agent having access to rewards.
+- *Curiosity* ([Pathak et al. 2017](https://arxiv.org/abs/1705.05363)): an unsupervised approach where the agent explores looking for states that maximize the error prediction of its model.
+- *Plan2Explore* ([Sekar et al. 2020](https://arxiv.org/abs/2005.05960)): an unsupervised approach where the agent explores looking for states that maximize the variance of an ensemble of predictors about the hidden state of the model.
+- *Random*: a random action baseline.
+
+(The results of the baselines reflect the original results presented in the Plan2Explore paper. More visualizations coming soon!)
+
+<div style='text-align: center'>
+    <img src="./resources/dmc_plots.png" alt="Zero-shot Performance" width="100%">
+</div>
+
+
+Latent Bayesian Surprise performs significantly better than Plan2Explore in 3 tasks, than Curiosity in 4 tasks, and than Random in 5 tasks. In the remaining tasks, performance are comparable.
+
+In 3 tasks (Cheetah Run, Hopper Hop and Quadruped Run), Latent Bayesian Surprise even outperforms the Dreamer supervised baseline.  
 
 ### Arcade Games Experiments
 
@@ -13,7 +53,7 @@ The curves show the game score achieved during an episode of training. Agents le
 
 
 <div style='text-align: center'>
-    <img src="./resources/arcade_results.png" alt="Arcade Results" width="70%">
+    <img src="./resources/arcade_results.png" alt="Arcade Results" width="100%">
 </div>
 
 To incentivize comparison against our baseline, we make public the data used in the plots, which can be easily integrated with the original [Large-Scale Study of Curiosity-Driven Learning](https://github.com/openai/large-scale-curiosity) open-source implementation.
@@ -33,7 +73,7 @@ They follow videos of the agents playing the games, driven only by their curiosi
     </div>
     <div class="column" style='text-align: center'>
     <h4> Montezuma Revenge</h4> 
-        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-left-bugs.mp4" width="90%" controls preload></video>
+        <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MontezumaRevenge-1400.mp4" width="90%" controls preload></video>
     </div>
     <div class="column" style='text-align: center'>
     <h4> Pong </h4>
