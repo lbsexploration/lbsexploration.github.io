@@ -6,10 +6,20 @@ $section-headings-color: #1b7fbba1;
 
 @import "{{ site.theme }}";
 
-.column {
+.column-4 {
     float: left;
     width: 25%;
   }
+
+.column-2 {
+  float: left;
+  width: 50%;
+}
+
+.column-3 {
+  float: left;
+  width: 33%;
+}
   
   /* Clear floats after the columns */
   .row:after {
