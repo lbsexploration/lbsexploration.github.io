@@ -14,205 +14,299 @@ The model and the agent are trained without rewards, collecting data through exp
 
 Along the exploration process, snapshots of the agent's model are used to train a task policy on the final task and plot its zero-shot performance. These behaviours are shown under the <b>Task</b> column.
 
+
 <div class="row">
   <div class="column-2">
-    <div><b>Exploration</b></div>
+    <b>Exploration</b>
   </div>
   <div class="column-2">
-    <div><b>Task</b></div>
+    <b>Task</b>
   </div>
 </div>
 <br/>
-<div class="row">
-  <div class="column-2">
-  <div class="column-3">
-    <br/>
-    <img src="./resources/dmc_gifs/acrobot_swingup_train.gif" alt="this slowpoke moves"  width="90%" />
-  </div>
-  </div>
-  <div class="column-2">
-    <div class="column-3">
-        Acrobot Swingup
-        <img src="./resources/dmc_gifs/acrobot_swingup_eval.gif" alt="this slowpoke moves"  width="90%" />
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Acrobot Swingup</div>
+        </div>
     </div>
-  </div>
 </div>
-<br/>
 <div class="row">
   <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/cartpole_balance_train.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/acrobot_swingup_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
   <div class="column-2">
-    <div class="column-3">
-        Cartpole Balance
-        <img src="./resources/dmc_gifs/cartpole_balance_eval.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        Cartpole Swingup
-        <img src="./resources/dmc_gifs/cartpole_swingup_eval.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/acrobot_swingup_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
 </div>
 <br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Cartpole Balance</div>
+            <div class="column-3">Cartpole Swingup</div>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/cheetah_run_train.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/cartpole_balance_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
   <div class="column-2">
-    <div class="column-3">
-        Cheetah Run
-        <img src="./resources/dmc_gifs/cheetah_run_eval.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/cartpole_balance_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/cartpole_swingup_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
 </div>
 <br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Cheetah Run</div>
+        </div>
+    </div>
+</div>
+<div class="row">
+  <div class="column-2">
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/cheetah_run_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+    </div>
+  </div>
+  <div class="column-2">
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/cheetah_run_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+    </div>
+  </div>
+</div>
+<br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Cup Catch</div>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="column-2">
     <div class="column-3">
-        <br/>
         <img src="./resources/dmc_gifs/cup_catch_train.gif" alt="this slowpoke moves"  width="90%" />
     </div>
   </div>
   <div class="column-2">
     <div class="column-3">
-        Cup Catch
         <img src="./resources/dmc_gifs/cup_catch_eval.gif" alt="this slowpoke moves"  width="90%" />
     </div>
   </div>
 </div>
 <br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Finger Spin</div>
+            <div class="column-3">Finger Turn Easy</div>
+            <div class="column-3">Finger Turn Hard</div>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/finger_spin_train.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/finger_turn_easy_train.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/finger_turn_hard_train.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/finger_spin_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/finger_turn_easy_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/finger_turn_hard_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
   <div class="column-2">
-    <div class="column-3">
-        Finger Spin
-        <img src="./resources/dmc_gifs/finger_spin_eval.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        Finger Turn Easy
-        <img src="./resources/dmc_gifs/finger_turn_easy_eval.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        Finger Turn Hard
-        <img src="./resources/dmc_gifs/finger_turn_hard_eval.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/finger_spin_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/finger_turn_easy_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/finger_turn_hard_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
 </div>
 <br/>
-<div class="row">
-  <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/hopper_stand_train.gif" alt="this slowpoke moves"  width="90%" />
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+    <div class='row'>
+        <div class="column-3">Hopper Stand</div>
+        <div class="column-3">Hopper Hop</div>
     </div>
-  </div>
-  <div class="column-2">
-    <div class="column-3">
-        Hopper Stand
-        <img src="./resources/dmc_gifs/hopper_stand_eval.gif" alt="this slowpoke moves"  width="90%" />
     </div>
-    <div class="column-3">
-        Hopper Hop
-        <img src="./resources/dmc_gifs/hopper_hop_eval.gif" alt="this slowpoke moves"  width="90%" />
+</div>
+<div class='row'>
+  <div class="column-2">
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/hopper_stand_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+    </div>
+    </div>
+  <div class="column-2">
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/hopper_stand_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/hopper_hop_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
 </div>
 <br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Pendulum Swingup</div>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/pendulum_swingup_train.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/pendulum_swingup_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
   <div class="column-2">
-    <div class="column-3">
-        Pendulum Swingup
-        <img src="./resources/dmc_gifs/pendulum_swingup_eval.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/pendulum_swingup_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
 </div>
 <br/>
-<div class="row">
-  <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/quadruped_run_train.gif" alt="this slowpoke moves"  width="90%" />
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Quadruped Walk</div>
+            <div class="column-3">Quadruped Run</div>
+        </div>
     </div>
-  </div>
-  <div class="column-2">
-    <div class="column-3">
-        Quadruped Walk
-        <img src="./resources/dmc_gifs/quadruped_walk_eval.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        Quadruped Run
-        <img src="./resources/dmc_gifs/quadruped_run_eval.gif" alt="this slowpoke moves"  width="90%" />
-    </div>    
-  </div>
 </div>
-<br/>
 <div class="row">
   <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/reacher_easy_train.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/reacher_hard_train.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/quadruped_run_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
   <div class="column-2">
-    <div class="column-3">
-        Reacher Easy
-        <img src="./resources/dmc_gifs/reacher_easy_eval.gif" alt="this slowpoke moves"  width="90%" />
-    </div>
-    <div class="column-3">
-        Reacher Hard
-        <img src="./resources/dmc_gifs/reacher_hard_eval.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/quadruped_walk_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/quadruped_run_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>    
     </div>
   </div>
 </div>
 <br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Reacher Easy</div>
+            <div class="column-3">Reacher Hard</div>
+        </div>
+    </div>
+</div>
 <div class="row">
   <div class="column-2">
-    <div class="column-3">
-        <br/>
-        <img src="./resources/dmc_gifs/walker_walk_train.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/reacher_easy_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/reacher_hard_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
   <div class="column-2">
-    <div class="column-3">
-        Walker Stand
-        <img src="./resources/dmc_gifs/walker_stand_eval.gif" alt="this slowpoke moves"  width="90%" />
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/reacher_easy_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/reacher_hard_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
-    <div class="column-3">
-        Walker Walk
-        <img src="./resources/dmc_gifs/walker_walk_eval.gif" alt="this slowpoke moves"  width="90%" />
+  </div>
+</div>
+<br/>
+<div class='row'>
+    <div class="column-2"><div class='row'></div></div>
+    <div class="column-2">
+        <div class='row'>
+            <div class="column-3">Walker Stand</div>
+            <div class="column-3">Walker Walk</div>
+            <div class="column-3">Walker Run</div>
+        </div>
     </div>
-    <div class="column-3">
-        Walker Run
-        <img src="./resources/dmc_gifs/walker_run_eval.gif" alt="this slowpoke moves"  width="90%" />
+</div>
+<div class="row">
+  <div class="column-2">
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/walker_walk_train.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+    </div>
+  </div>
+  <div class="column-2">
+    <div class='row'>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/walker_stand_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/walker_walk_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
+        <div class="column-3">
+            <img src="./resources/dmc_gifs/walker_run_eval.gif" alt="this slowpoke moves"  width="90%" />
+        </div>
     </div>
   </div>
 </div>
@@ -268,13 +362,14 @@ They follow videos of the agents playing the games, driven only by their curiosi
         <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/SpaceInvaders-1370.mp4" width="90%" controls preload></video>
     </div>
 </div>
-<h4> Super Mario Bros.</h4>
 <div class="row">
     <div class="column-4" style='text-align: center'></div>
     <div class="column-4" style='text-align: center'>
+        <h4> Super Mario Bros. (1)</h4>
         <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-pipe-world-1.mp4" width="90%" controls preload></video>
     </div>
     <div class="column-4" style='text-align: center'>
+        <h4> Super Mario Bros. (2)</h4>
         <video style=' background-color: rgba(0, 0, 0, 0)' src="./resources/MarioBros-all-world-1.mp4" width="90%" controls preload></video>
     </div>
     <div class="column-4" style='text-align: center'></div>

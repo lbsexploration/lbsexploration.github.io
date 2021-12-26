@@ -6,27 +6,36 @@ $section-headings-color: #1b7fbba1;
 
 @import "{{ site.theme }}";
 
+* {
+  margin: 0;
+  padding: 0;
+  }
+
 .column-4 {
-    float: left;
+    display: inline-block;
+    margin: 0 auto;
     width: 25%;
   }
 
 .column-2 {
-  float: left;
+  display: inline-block;
+  margin: 0 auto;
   width: 50%;
 }
 
 .column-3 {
-  float: left;
+  display: inline-block;
+  margin: 0 auto;
+  border: 0;
   width: 33%;
 }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+   
+/* Clear floats after the columns */
+.row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 .page-header {
     color: $header-heading-color;
