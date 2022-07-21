@@ -3,8 +3,8 @@ title: 'Curiosity-Driven Exploration<br>via Latent Bayesian Surprise'
 description:
 - Pietro Mazzaglia, Ozan Catal, Tim Verbelen, Bart Dhoedt<br>
 - IDLab, Ghent University<br>
-- Accepted to AAAI-22<br>
+- Accepted to AAAI-22 (oral)<br>
 - Presented at Self-supervision for Reinforcement Learning workshop (ICLR 2021)<br>
 buttons:
-  Conference Paper Coming Soon: ''
-  Workshop Paper: 'https://arxiv.org/pdf/2104.07495.pdf'
+  Conference Paper: 'https://arxiv.org/abs/2104.07495'
+  Workshop Paper: 'https://openreview.net/forum?id=PvTXy6DKvlh'
