@@ -7,5 +7,6 @@ description:
 - Presented at Self-supervision for Reinforcement Learning workshop (ICLR 2021)<br>
 buttons:
   Paper: 'https://arxiv.org/abs/2104.07495'
-  Code (for ICML 23 work): 'https://github.com/mazpie/mastering-urlb'
+  Code: 'https://github.com/mazpie/lbs-exploration'
+  NEW Code (ICML 23 work): 'https://github.com/mazpie/mastering-urlb'
 google_analytics: G-DDG7GM42MN 
